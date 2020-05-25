@@ -15,8 +15,10 @@ hilarious = False
 
 joke_evaluation = "Isn't that joke so funny?! {}"
 
+# this takes a variable and evaluates it by interpolating a variable into it then prints that to the terminal.
 print(joke_evaluation.format(hilarious))
 w = "This is the left side of..."
 e = "a string with a right side."
 
+# this concatenates two strings together.
 print(w + e)
