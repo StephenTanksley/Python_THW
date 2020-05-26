@@ -10,3 +10,5 @@ print("The second variable is: ", second)
 print("The third variable is: ", third)
 
 print(f"{query}: Here are your favorite characters - {first}, {second}, {third}.")
+
+print(argv)
