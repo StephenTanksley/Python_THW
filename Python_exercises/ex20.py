@@ -28,10 +28,13 @@ rewind(current_file)
 print("Let's print three lines:")
 
 current_line = 1
+print("This is the current line: ", current_line)
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
+print("Now this is the current line: ", current_line)
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
+print("Finally, this is the current line: ", current_line)
 print_a_line(current_line, current_file)
